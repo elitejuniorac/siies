@@ -1,11 +1,19 @@
+
+/* Importando as fontes Open Sans e Ubuntu do Google Fonts - Saiba mais (https://fonts.google.com/) */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
 
-html, body, div, ul, li, nav, h1, h2, h3,h4,h5,h6, form, input{
+  /* O "*" quer dizer que estamos aplicando esses estilo a todas as tags de nosso HTML */
+  *{
     margin: 0;
-      padding: 0;
-      border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
   }
-  
+
+  html, body{
+    height:100%;
+  }
+
   body{
     font-family: 'Open Sans', sans-serif;
   }
@@ -31,7 +39,7 @@ html, body, div, ul, li, nav, h1, h2, h3,h4,h5,h6, form, input{
     background-color: #5e7feb;
    }
 
-   .underline-2 {
+  .underline-2 {
     position: relative;
     z-index: 10;
     display: block;
@@ -40,7 +48,7 @@ html, body, div, ul, li, nav, h1, h2, h3,h4,h5,h6, form, input{
     margin: 10px auto;
     border-radius: 3px;
     background-color: #1d2d38;
-}
+  }
   
   .container{
     margin: 0 auto;
@@ -248,7 +256,7 @@ html, body, div, ul, li, nav, h1, h2, h3,h4,h5,h6, form, input{
   }
   
   .text-field:focus {
-    border: 1px solid #ff8273;
+    border: 1px solid #5e7feb;
   }
   
   .text-field.your-message {
@@ -262,7 +270,7 @@ html, body, div, ul, li, nav, h1, h2, h3,h4,h5,h6, form, input{
   }
   
   .text-field.your-message:focus {
-    border: 1px solid #ff8273;
+    border: 1px solid #5e7feb;
   }
   
   .text-field.name {
@@ -313,8 +321,9 @@ html, body, div, ul, li, nav, h1, h2, h3,h4,h5,h6, form, input{
     padding: 20px 50px 20px 50px;
     border-radius: 60px;
     font-weight: bold;
+    border: 0;
+    cursor: pointer;
   }
-  
   
   #rodape{
     background-color: #1d2d38;
