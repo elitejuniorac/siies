@@ -99,6 +99,10 @@
   
   #capa .container{
     height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   #capa h1{
@@ -112,6 +116,8 @@
     padding: 20px 30px 20px 30px;
     border-radius: 60px;
     font-weight: bold;
+    margin-top: 25px;
+    display: inline-block;
   }
 
   #capa a:hover{
@@ -122,15 +128,16 @@
   }
 
   #capa p{
-    margin-bottom: 50px;
     font-size: 18px;
+    margin-top: 28px;
   }
 
   .box{
     width: 70%;
-    margin: 0 auto;
-    padding: 100px;
+    height: 400px;
+    padding: 20px;
     text-align: center;
+    margin-top: -35px;
   }
 
   .box-2{
